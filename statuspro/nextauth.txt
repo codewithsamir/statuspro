@@ -1,0 +1,19 @@
+next auth 
+
+with ts 
+ next-auth.d.ts
+ nextauthoptions
+   provider[]
+      creadentialprovider
+           credentials
+           authorize
+   callbacks 
+       jwt
+       session
+   pages 
+      session  
+          strategy
+          maxage
+ [...nextauth]
+ register
+ middleware
